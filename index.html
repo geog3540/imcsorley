@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--
+	Isaac McSorley Web Portfolio
+-->
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	
+    <title>Isaac McSorley</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+      <!-- Intro -->
+      <div id="intro">
+
+		<style>
+			h1 {
+			  font-style: italic;
+			}
+		  </style>
+		</head>
+		<body>
+		  <h1>Isaac McSorley</h1>
+
+
+        <h2>My Portfolio</h2>
+        <ul class="actions">
+          <li>
+            <a
+              href="#header"
+              class="button icon solid solo fa-arrow-down scrolly"
+              >Continue</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Header -->
+      <header id="header">
+        <a href="index.html" class="logo">Welcome</a>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li class="active"><a href="index.html">Profile</a></li>
+		  <li><a href="Isaac McSorley.pdf" target="_blank">Resume</a></li>
+        </ul>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://linkedin.com/in/immcsorley"
+              class="icon brands fa-linkedin"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/immcsorley"
+              class="icon brands fa-github"
+              ><span class="label">GitHub</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Featured Post -->
+      <!-- START -->
+
+		  <head>
+			<title>Isaac McSorley | Portfolio</title>
+			<style>
+			  /* Style the container for the profile page */
+			  .profile {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				max-width: 960px;
+				margin: 0 auto;
+				padding: 40px;
+			  }
+		
+			  /* Style the image on the right side */
+			  .profile img {
+				width: 300px;
+				height: auto;
+				float: right;
+				border-radius: 100%;
+			  }
+		
+			  /* Style the title on the left side */
+			  .profile h1 {
+				font-size: 48px;
+				margin: 0;
+			  }
+			
+      		/* Style the header for the "About Me" section */
+      		.about-me h2 {
+        	font-size: 36px;
+        	margin-bottom: 16px;
+      		}
+	
+	</style>
+  </head>
+  
+  <body>
+    <div class="profile">
+      <h1>Hello World! <br /> I'm Isaac McSorley</h1>
+      <img src="images/profile-pic.jpeg" alt="Isaac McSorley" >
+    </div>
+    <div style="text-align: center;">
+      <h2>About Me</h2>
+      <p>Hi, I'm Isaac! I'm a Master student at the University of Iowa studying Business Analytics. 
+		I have experience cleaning, engineering, and modeling data using Python, R, and SQL.  
+		When I'm not coding, I enjoy playing golf, working out, eating good food, or hanging out with friends. 
+		Please check out my projects below and feel free to reach out.</p>
+    <h2>Experience</h2>
+    <p>
+      My experience through internships has involved finance, analytics and data science. At HNI Corporation, I was part of the product analytics team, and at JP Morgan Chase, I worked with the product finance team. Additionally, I worked as a student intern for the University of Iowa College of Nursing, contributing to the design and implementation of a new database. Lastly, I assist with machine learning research for Spartan Forge, 
+      a startup company that specializes in mapping software applications that utilize Artificial Intelligence to support deer hunters. 
+      
+      <br/> <br/>These diverse experiences have enabled me to develop a broad skill set, making me a well-rounded individual with knowledge in many different fields and working with both very large and very small companies. 
+    </p>
+
+  
+    </div>
+
+    <script>
+      function openImage(imageSrc) {
+        var img = $('<img>').attr('src', imageSrc).css({
+          'max-width': '90%',
+          'max-height': '90%',
+          'position': 'fixed',
+          'top': '50%',
+          'left': '50%',
+          'transform': 'translate(-50%, -50%)',
+          'z-index': '1000'
+        });
+    
+        var overlay = $('<div>').css({
+          'background-color': 'rgba(0, 0, 0, 0.7)',
+          'width': '100%',
+          'height': '100%',
+          'position': 'fixed',
+          'top': '0',
+          'left': '0',
+          'z-index': '999'
+        }).on('click', function() {
+          $(this).remove();
+          img.remove();
+        });
+    
+        $('body').append(overlay);
+        $('body').append(img);
+      }
+    </script>
+    
+      <!-- Projects Section -->
+
+		  <article>
+            <header>
+              <div style="text-align: center;">
+                <h2>Data Science / Analytics Projects</h2>
+              </div>
+              <h3>
+            <center> 
+                <a href="https://github.com/immcsorley/DatabaseProject"
+                  >Database development for University of Iowa College of Nursing </a
+                >
+              </h3>
+            </center>
+            </header>
+          <a href="https://github.com/immcsorley/DatabaseProject" class="image main"
+            ><img src="images/pic01.png" alt=""
+          /></a>
+		  <p>
+			For the University of Iowa's Nursing Residency Program, I designed a relational Microsoft Access database that streamlined their data management process. By integrating their customer and sales information, as well as creating custom forms and automated reports, I reduced manual labor by over 50%. The database allows the company to track customers, manage invoicing, and gain valuable insights through easy-to-use reports. With the ability to search and edit customer data and create professional invoices, this database provides a comprehensive solution for the company's data management.
+      
+		  </p>
+          <ul class="actions special">
+            <li><a href="https://github.com/immcsorley/DatabaseProject" class="button large">Check it out</a></li>
+          </ul>
+        </article>
+
+        <!-- Posts -->
+        <section class="posts">
+          <article>
+            <header>
+              <h2>
+                <a href="https://github.com/immcsorley/ChurnRateProject"
+                  >Credit Card Churn Rate Predictive Modeling </a
+                >
+              </h2>
+            </header>
+            <a href="https://github.com/immcsorley/ChurnRateProject" class="image fit"
+              ><img src="images/pic02.png" alt=""
+            /></a>
+            <p>
+				This project used supervised machine learning to analyze credit card company data 
+				and build a model to predict customer churn. Exploratory analysis revealed that 
+				customers with lower transaction numbers and amounts, lower revolving balances,
+				 and fewer total products were more likely to churn. 
+				 <br /> <br />
+				 The best model, a gradient boosting model, had an AUC of .9911 and an average error rate of 7.6%. The model 
+				 had a precision of 96% and a recall of 85.7%. The conclusion and recommendations 
+				 suggest that the company should offer incentives such as cashback rewards and travel
+				amenities to retain customers.
+            </p>
+            <ul class="actions special">
+              <li><a href="https://github.com/immcsorley/ChurnRateProject" class="button">Check it out</a></li>
+            </ul>
+          </article>
+          <article>
+            <header>
+              <h2>
+                <a href="https://github.com/immcsorley/ChicagoO-Hare"
+                  >Best Flight Analysis: Chicago O' Hare Airport </a
+                >
+              </h2>
+            </header>
+            <a href="https://github.com/immcsorley/ChicagoO-Hare" class="image fit"
+              ><img src="images/pic03.png" alt=""
+            /></a>
+            <p>
+				This project aims to ease the airport experience for travelers by providing statistical data to help 
+				choose an airline and day to fly from Chicago O'Hare International Airport. 
+				The project uses data from the 2015 Kaggle data on Commercial Air Flight Delays, 
+				which includes over 5 million commercial flights.
+				<br /> <br />
+				The report provides an in-depth analysis 
+				of the data, and frequent fliers of O'Hare can benefit from it. The website provides screenshots of the 
+				final report.
+            </p>
+			<br /><br /><br />
+            <ul class="actions special">
+              <li><a href="https://github.com/immcsorley/ChicagoO-Hare" class="button">Check it out</a></li>
+            </ul>
+          </article>
+          <article>
+            
+      
+      </section>
+        
+<!-- Geovisualization Portfolio -->
+
+<style>
+  .description {
+    line-height: 1.35; /* Adjust this value as needed; lower values will make the line spacing tighter */
+  }
+  .image.fit img {
+    height: 275px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure the images maintain their aspect ratio */
+  }
+  .geo-portfolio-section {
+  margin-top: -40px;
+}
+
+</style>
+<section class="geo-portfolio-section">
+  <header>
+    <div style="text-align: center;">
+      <h2>Geovisualization Portfolio</h2>
+    </div>
+  </header>
+  <div class="posts" style="display: flex; justify-content: space-between;">
+    <article style="flex: 1; margin-right: 20px; box-sizing: border-box;">
+      <header>
+        <h3><a href="javascript:openImage('images/geo1.png')">Chicago Bikeshare Flows</a></h3>
+      </header>
+      <a href="javascript:openImage('images/geo1.png')" class="image fit"><img src="images/geo1.png" alt="Geo Project 1" /></a>
+      <p class="description">The spatial patterns reveal that bikeshare activity primarily occurs in a north-south direction within Chicago, concentrating around the downtown Loop area and Navy Pier. These patterns suggest the influence of location characteristics such as density of businesses, traffic, bikeshare routes, and availability of Divvy bikes. </p>  
+      <div style="text-align: center;">
+        <a href="https://immcsorley.github.io/flow_map.html" target="_blank" class="button small">Check it out</a>
+      </div>      
+    </p>
+    </article>
+    <article style="flex: 1; box-sizing: border-box;">
+      <header>
+        <h3><a href="javascript:openImage('images/geo3.png')">Black Population in the U.S.</a></h3>
+      </header>
+      <a href="javascript:openImage('images/geo3.png')" class="image fit"><img src="images/geo3.png" alt="Geo Project 3" /></a>
+      <p class="description">This graduated symbol map illustrates the distribution of the Black population in the United States using proportional circles. The spatial patterns reveal higher concentrations in the Southeast and urban areas nationwide. These patterns provide insight into the historical, cultural, and socio-economic factors shaping population distributions.
+      <br />
+      <div style="text-align: center;">
+      <a href="https://observablehq.com/d/667ad2aab4ad4367" target="_blank" class="button small">View code here</a>
+      </div>
+      </p>
+    </article>
+    
+  </div>
+
+<div class="posts" style="display: flex; justify-content: space-between;">
+  <article style="flex: 1; margin-right: 20px; box-sizing: border-box;">
+    <header>
+      <h3><a href="javascript:openImage('images/geo1.png')">LA County, CA: Population Chlorolpeth</a></h3>
+    </header>
+    <a href="javascript:openImage('images/geo4.png')" class="image fit"><img src="images/geo4.png" alt="Geo Project 1" /></a>
+    <p class="description">This chloropleth map shows the population in Los Angeles County California. It allows the user to see which areas of the county contain a higher number of residents. This shows although some areas are very large in geographic size, they can still have a lower population, while other small areas contain a large number of people.</p>
+    <br />
+    <div style="text-align: center;">
+      <a href="https://observablehq.com/d/935b7dbdda5c30b5" target="_blank" class="button small">View code here</a>
+    </div>    
+    </p>
+  </article>
+  <article style="flex: 1; margin-right: 20px; box-sizing: border-box;">
+    <header>
+      <h3><a href="javascript:openImage('images/geo2.png')">LA County, CA: Bivariate </a></h3>
+    </header>
+    <a href="javascript:openImage('images/geo2.png')" class="image fit"><img src="images/geo2.png" alt="Geo Project 2" /></a>
+    <p class="description">This bivariate choropleth map highlights the inverse relationship between Median Family Income and Poverty Rate in LA County census tracts. Darker colors represent areas with low income and high poverty, particularly in the middle south and northeast corners of the county.
+    <br />
+    <div style="text-align: center;">
+    <a href="https://observablehq.com/d/794e90795399806c" target="_blank" class="button small">View code here</a>
+    </div>
+    </p>
+  </article>
+  
+</section>
+
+
+
+      </div>
+
+
+      <!-- Footer -->
+      <footer id="footer">          
+        </section>
+        <section class="split contact">
+          <section class="alt">
+            <h3>Location</h3>
+            <p>
+              Iowa City, IA >> Tampa, FL<br />
+              
+            </p>
+          </section>
+        
+          <section>
+            <h3>Email</h3>
+            <p><a href="mailto:isaacmcsorley@gmail.com">isaacmcsorley@gmail.com</a></p>
+          </section>
+          <section>
+            <h3>Socials</h3>
+            <ul>
+              <li>
+                <a href="https://linkedin.com/in/immcsorley" class="icon brands alt fa-linkedin"
+                  ><span class="label">Linkedin</span></a
+              </li>
+              <li>
+                <a href="https://github.com/immcsorley" class="icon brands alt fa-github"
+                  ><span class="label">GitHub</span></a
+              </li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+
+     
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
